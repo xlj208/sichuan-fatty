@@ -1,0 +1,111 @@
+
+.pro_operate {
+	padding: 16rpx;
+}
+
+/* title */
+.pro_operate .title {
+	font-weight: bold;
+}
+
+/* description */
+.pro_operate .desc {
+	font-size: 28rpx;
+	color: #C0C0C0;
+	/* 上下，左右 */
+	padding: 20rpx 0;
+}
+
+/* add button */
+.pro_operate .pro_btn {
+	display: flex;
+	justify-content: space-between;
+	/* 给一个定位属性，作子元素 使用绝对定位是的 参考点 */
+	position: relative;
+}
+
+/*价格*/
+.pro_btn .price text:first-child {
+	color: orange;
+}
+.pro_btn .price text:nth-child(2) {
+	font-size: 50rpx;
+	color: orange;
+}
+.pro_operate .pro_btn .cart_btn {
+	background-color: #F93C5E;
+	border-radius: 20rpx;
+	color: #FFFFFF;
+	padding: 20rpx;
+	font-size: 26rpx;
+}
+.pro_operate .pro_btn .cart_btn view {
+	position: absolute;
+	right: 10rpx;
+	top: -36rpx;
+	background-color: orange;
+	/* 圆角 */
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	/* 文字水平剧中 */
+	text-align: center;
+	/* 文字垂直剧中：line-height:高度*/
+	line-height: 50rpx;
+}
+
+/* 底部:流式布局 */
+.pro_bottom {
+	/* display: flex; */
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.pro_bottom image {
+	width: 64rpx;
+	height: 64rpx;
+	margin-right: 30rpx;
+}
+.pro_bottom .cart {
+	box-sizing: border-box;
+	width: 66.6666%;
+	float: left;
+	display: flex;
+	align-items: center;
+	font-size: 30rpx;
+	background-color: #252C32;
+	color: #F9F9F9;
+	position: relative;
+	padding: 24rpx
+}
+.pro_bottom .cart_num {
+	position: absolute;
+	left: 60rpx;
+	top: -2rpx;
+	background-color: orange;
+	text-align: center;
+	height: 40rpx;
+	width: 40rpx;
+	border-radius: 50%;
+	line-height: 40rpx;
+	padding: 6rpx;
+	font-size: 28rpx;
+}
+.pro_bottom .cart .express {
+	font-size: 22rpx;
+	color: #F1F1F1;
+}
+.pro_bottom .require_good {
+	width: 33.3333%;
+	float: left;
+	/* flex: 1; */
+	background-color: #F93C5E;
+	font-size: 30rpx;
+	text-align: center;
+	height: 112rpx;
+	line-height: 112rpx;
+	color: #FFFFFF;
+	letter-spacing: 4rpx;
+}
+

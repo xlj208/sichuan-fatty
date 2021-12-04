@@ -1,0 +1,4 @@
+.list{padding:16rpx}.item{margin-bottom:16rpx;display:flex;justify-content:space-between}.item .item_left image{width:173rpx;height:173rpx;margin-right:16rpx}.item .item_left{display:flex}.item .item_left .title{font-weight:700;font-size:34rpx}.item .item_left .tongji,
+.item .item_left .time,
+.item .item_left .price{color:#928688}.item .item_left .tongji,
+.item .item_left .time{font-size:28rpx}.item .item_left .price{font-size:30rpx;margin-top:40rpx;color:orange}.item .item_right{display:flex;justify-content:space-around;align-items:center}.item .item_right image{width:64rpx;height:64rpx}.cart_info{display:flex;flex-direction:row;justify-content:flex-end;width:100%;margin-right:10rpx}.cart_info text:first-child{margin-right:30rpx}.cart_info text:nth-child(2){color:orange}

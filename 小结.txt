@@ -1,0 +1,37 @@
+1.详情页面布局
+2.url传递参数
+列表：
+ <navigator url="../detail/detail?id=4">
+ 	<image src="../../static/upload/list4.jpg"></image>
+ </navigator>
+ 
+详情：
+onLoad(data){
+	//接受参数 {id: "1"}
+	console.log(data)
+}
+
+3.动态渲染数据
+ 产品看成json对象
+ {
+ 		"id": 1,
+ 		"pic": "http://api.brqc.com.cn/img/list1.jpg",
+ 		"title": "特色烤鱼",
+ 		"sale": 100,
+ 		"support": 98,
+ 		"prepare_time": 30,
+ 		"price": 68
+ }
+ v-for
+ 
+4.发起网络请求
+ uni.request(obj)--类似jQuery的ajax方法
+ 详情页获取数据
+ 
+5.详情页加入购物车
+ 保存到本地存储/内存卡
+ uni.setStorage();
+ uni.getStorage();
+ 
+6.我的页面
+

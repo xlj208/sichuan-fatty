@@ -1,0 +1,145 @@
+.me {
+  background-color: #f9f9fb;
+}
+.me ._div.head {
+  display: flex;
+  padding: 56rpx 0 27rpx 27rpx;
+  background: -webkit-linear-gradient(top, #18B7f9, #f9f9fb);
+}
+.me ._div.head ._div.img {
+  width: 130rpx;
+  height: 130rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+.me ._div.head ._div.img image {
+  margin: 0 auto;
+  width: 117rpx;
+  height: 114rpx;
+}
+.me ._div.head ._a {
+  margin: 34rpx 17rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.me ._div.discounts {
+  /* background-color: red; */
+  margin: -30rpx 30rpx 0 30rpx;
+}
+.me ._div.discounts ._ul {
+  /* ul 默认边距 */
+  /* padding-left: 0; */
+  display: flex;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* padding-top: 12rpx; */
+  padding: 40rpx;
+  border-radius: 14rpx;
+}
+.me ._div.discounts ._ul ._li {
+  list-style: none;
+  /* 文字，图片居中 */
+  text-align: center;
+}
+.me ._div.discounts ._ul ._li ._a {
+  text-decoration: none;
+  color: #505050;
+  font-weight: bold;
+}
+.me ._div.discounts ._ul ._li ._a ._span {
+  font-size: 30rpx;
+  color: #efc173;
+}
+.me ._div.discounts ._ul ._li ._a ._p {
+  margin-top: 20rpx;
+  font-size: 20rpx;
+}
+.me ._div.function {
+  margin: 20rpx 25rpx;
+  background-color: #FFFFFF;
+  border-radius: 14rpx;
+  padding: 25rpx 15rpx;
+}
+.me ._div.function ._h2 {
+  margin-left: 40rpx;
+  margin-bottom: 15rpx;
+  font-size: 12pt;
+  font-weight: normal;
+}
+.me ._div.function ._ul {
+  /* ul 默认边距 */
+  /* padding-left: 0; */
+  display: flex;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  /* padding-top: 12rpx; */
+  padding: 30rpx;
+  border-radius: 14rpx;
+  flex-wrap: wrap;
+}
+.me ._div.function ._ul ._li {
+  list-style: none;
+  /* 文字，图片居中 */
+  text-align: center;
+  width: 24%;
+  margin-bottom: 40rpx;
+}
+.me ._div.function ._ul ._li ._a {
+  text-decoration: none;
+  color: #505050;
+  font-weight: bold;
+}
+.me ._div.function ._ul ._li ._a image {
+  width: 46rpx;
+  height: 46rpx;
+}
+.me ._div.function ._ul ._li ._a ._p {
+  margin-top: 20rpx;
+  font-size: 20rpx;
+}
+.me ._div.serve {
+  margin: 20rpx 30rpx;
+  background-color: #FFFFFF;
+  border-radius: 14rpx;
+  padding: 25rpx 15rpx;
+}
+.me ._div.serve ._h2 {
+  margin-left: 40rpx;
+  margin-bottom: 15rpx;
+  font-size: 12pt;
+  font-weight: normal;
+}
+.me ._div.serve ._ul {
+  /* ul 默认边距 */
+  /* padding-left: 0; */
+  display: flex;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  /* padding-top: 12rpx; */
+  padding: 30rpx;
+  border-radius: 14rpx;
+}
+.me ._div.serve ._ul ._li {
+  margin-right: 40rpx;
+  list-style: none;
+  /* 文字，图片居中 */
+  text-align: center;
+}
+.me ._div.serve ._ul ._li ._a {
+  text-decoration: none;
+  color: #505050;
+  font-weight: bold;
+}
+.me ._div.serve ._ul ._li ._a image {
+  width: 46rpx;
+  height: 46rpx;
+}
+.me ._div.serve ._ul ._li ._a ._p {
+  margin-top: 20rpx;
+  font-size: 20rpx;
+}
+

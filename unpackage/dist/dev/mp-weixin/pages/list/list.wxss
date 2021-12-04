@@ -1,0 +1,58 @@
+
+.list{
+	padding: 16rpx;
+}
+
+/* 一个产品 最大的盒子 */
+.item{
+	/* 添加相对定位，作为子元素 绝对定位时候的参考点 */
+	position: relative;
+	/* left:0;
+	top:0; */
+	margin-bottom: 16rpx;
+}
+
+/* 大图 */
+.item .item_left image{
+	width: 173rpx;
+	height: 173rpx;
+	margin-right: 16rpx;
+}
+
+/* 水平排列 */
+.item .item_left{
+	display: flex;
+	/* flex-direction: row; */
+}
+.item .item_left .title{
+	/* 加粗 */
+	font-weight: bold;
+	font-size: 34rpx;
+}
+
+/* 组选择器：相同样式的选择放一起，使用 逗号(,)分割*/
+.item .item_left .tongji,
+.item .item_left .time,
+.item .item_left .price{
+	color: #928688;
+}
+.item .item_left .tongji,
+.item .item_left .time{
+	font-size:28rpx;
+}
+.item .item_left .price{
+	font-size: 26rpx;
+	margin-top: 20rpx;
+}
+
+/* add */
+.item .item_right{
+	width: 64rpx;
+	height: 64rpx;
+	position: absolute;
+	/* left:0;
+	top:0 */
+	bottom: 0;
+	right: 0;
+}
+

@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "川胖子菜馆" //页面标题
+			}
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "列表", //页面标题
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "菜品详情", //页面标题
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#18B7F9" //导航背景颜色 takecolor
+			}
+
+		}
+	],
+	"tabBar": {
+		// key:val,key2:val2,...keyn:valn
+		//导航配置
+		"color": "#7A7E83", //菜单颜色
+		"selectedColor": "#F45B6E", //选中的 颜色
+		
+		"borderStyle": "black", //tabbar 上边框的颜色，可选值 black/white
+		"backgroundColor": "#ffffff", //背景色
+
+		"height": "50px", //导航高
+		"fontSize": "10px", //字体大小
+		"iconWidth": "24px", //图标宽
+		"spacing": "3px", //文字间距
+
+		//导航菜单项
+		"list": [
+			// 一个菜单的信息
+			{
+				"pagePath": "pages/index/index", //路径
+				"iconPath": "static/tabbar/home.png", //菜单默认图
+				"selectedIconPath": "static/tabbar/homeactive.png", //选中的图
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/cart/cart", //路径
+				"iconPath": "static/tabbar/cart.png", //菜单默认图
+				"selectedIconPath": "static/tabbar/cartactive.png", //选中的图
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/my/my", //路径
+				"iconPath": "static/tabbar/me.png", //菜单默认图
+				"selectedIconPath": "static/tabbar/meactive.png", //选中的图
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
